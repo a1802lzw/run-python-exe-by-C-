@@ -1,3 +1,6 @@
+python安装nuitka
+pip install --upgrade nuitka
+
 nuitka --standalone --mingw64 --show-memory --show-progress --nofollow-imports --plugin-enable=qt-plugins --follow-import-to=need  --output-dir=输出文件夹 你的.py
 
 依赖环境
